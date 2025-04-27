@@ -1,0 +1,15 @@
+# Nix build results
+result*
+
+# Direnv state
+.direnv/
+
+# macOS system files
+.DS_Store
+
+# VSCode specific
+.vscode/
+
+# Decrypted secrets (if any)
+*.dec
+secrets.yaml

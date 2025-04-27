@@ -1,0 +1,7 @@
+keys:
+  - &laserx age1alpaa4ru3ezvtq4mnqyxrd2347tdec5tnyzu32yp7sc9pr03rquq57jsuq
+creation_rules:
+  - path_regex: secrets/laserx/[^/]+\.(yaml|json|env|ini)$
+    key_groups:
+      - age:
+          - *laserx
