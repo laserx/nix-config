@@ -14,6 +14,7 @@
     zsh.enable = true;
 
     atuin.enable = true; # history manager
+    bun.enable = true; # JavaScript runtime
     bat.enable = true; # cat alternative with syntax highlighting
     bottom.enable = true; # resource monitor
     git.enable = true; # version control

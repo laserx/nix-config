@@ -28,6 +28,8 @@ in {
 
       extraConfig = ''
         set -g default-shell ${pkgs.fish}/bin/fish
+        set -g @logging-path "${config.xdg.configHome}/.nix_logs/tmux"
+
 
         set -ga terminal-overrides ",*256col*:Tc"
         set -ga terminal-overrides '*:Ss=\E[%p1%d q:Se=\E[ q'
