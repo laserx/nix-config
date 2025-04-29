@@ -19,6 +19,9 @@ in {
         theme = "Violet Light";
         font-size = 16;
         font-family = "Iosevka Nerd Font";
+        keybind = [
+          "super+t=unbind"
+        ];
       };
     };
   };
