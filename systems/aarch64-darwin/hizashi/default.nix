@@ -22,6 +22,7 @@
   environment.systemPackages = with pkgs; [
     alejandra
     tree
+    devenv
     snowfallorg.flake
   ];
 
